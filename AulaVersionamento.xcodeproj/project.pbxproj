@@ -80,11 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				7683B1911B94C930009AEC2A /* AppDelegate.swift */,
-				7683B1931B94C930009AEC2A /* MasterViewController.swift */,
-				7683B1951B94C930009AEC2A /* DetailViewController.swift */,
-				7683B1971B94C930009AEC2A /* Main.storyboard */,
-				7683B19A1B94C930009AEC2A /* Images.xcassets */,
-				7683B19C1B94C930009AEC2A /* LaunchScreen.xib */,
+				7683B1E31B94D35F009AEC2A /* View Controllers */,
+				7683B1E41B94D3AE009AEC2A /* Resources */,
 				7683B18F1B94C930009AEC2A /* Supporting Files */,
 			);
 			path = AulaVersionamento;
@@ -113,6 +110,25 @@
 				7683B1A81B94C930009AEC2A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7683B1E31B94D35F009AEC2A /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7683B1931B94C930009AEC2A /* MasterViewController.swift */,
+				7683B1951B94C930009AEC2A /* DetailViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		7683B1E41B94D3AE009AEC2A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7683B1971B94C930009AEC2A /* Main.storyboard */,
+				7683B19A1B94C930009AEC2A /* Images.xcassets */,
+				7683B19C1B94C930009AEC2A /* LaunchScreen.xib */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -415,6 +431,7 @@
 				7683B1AF1B94C930009AEC2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7683B1B01B94C930009AEC2A /* Build configuration list for PBXNativeTarget "AulaVersionamentoTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +440,7 @@
 				7683B1B21B94C930009AEC2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
